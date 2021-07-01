@@ -6,7 +6,7 @@ export const Wrapper = styled.section`
     background: ${theme.colors.lightGray};
 
     @media (max-width: 900px) {
-     height: auto;
+      height: auto;
     }
   `}
 `;
@@ -16,15 +16,13 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: ${theme.spacings.large} 0;
+    padding: ${theme.spacings.xxlarge} 0 ${theme.spacings.large};
   `}
 `;
 
 export const Header = styled.div`
-  ${({ theme }) => css`
-    width: 100%;
-    max-width: 51rem;
-  `}
+  width: 100%;
+  max-width: 51rem;
 `;
 
 export const Title = styled.h2`
