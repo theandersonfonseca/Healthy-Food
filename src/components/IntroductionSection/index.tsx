@@ -2,6 +2,8 @@ import * as S from './styles';
 
 import { Formik, Form } from 'formik';
 
+import { Search } from '@styled-icons/boxicons-regular';
+
 import illustrationImage from '../../assets/images/illustration.svg';
 import Button from '../Button';
 import Menu from '../Menu';
@@ -36,7 +38,9 @@ export default function IntroductionSection() {
                     name='text'
                     type='text'
                   />
-                  <Button type='submit'>Se</Button>
+                  <Button type='submit'>
+                    <Search size='24' />
+                  </Button>
                 </Form>
               )}
             </Formik>
