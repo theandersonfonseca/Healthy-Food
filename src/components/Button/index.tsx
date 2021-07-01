@@ -1,13 +1,22 @@
-import { ReactNode } from 'react'
-import * as S from './styles'
+import { HTMLAttributes } from 'react';
+import * as S from './styles';
+
+type ButtonTypes = HTMLAttributes<HTMLButtonElement>;
 
 export type ButtonProps = {
-  children: ReactNode
-  boxShadow?: boolean
-}
+  type?: 'button' | 'submit' | 'reset' | undefined;
+  boxShadow?: boolean;
+} & ButtonTypes;
 
-export default function Button({children, boxShadow}: ButtonProps) {
+export default function Button({
+  type = 'button',
+  children,
+  boxShadow,
+  ...props
+}: ButtonProps) {
   return (
-    <S.Wrapper boxShadow={boxShadow}>{children}</S.Wrapper>
-  )
+    <S.Wrapper {...props} type={type} boxShadow={boxShadow}>
+      {children}
+    </S.Wrapper>
+  );
 }
