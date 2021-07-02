@@ -2,10 +2,10 @@ import {
   createGlobalStyle,
   css,
   DefaultTheme,
-  GlobalStyleComponent
-} from 'styled-components'
+  GlobalStyleComponent,
+} from 'styled-components';
 
-type GlobalStylesProps = {}
+type GlobalStylesProps = {};
 
 const GlobalStyles: GlobalStyleComponent<
   GlobalStylesProps,
@@ -31,8 +31,9 @@ const GlobalStyles: GlobalStyleComponent<
     body {
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.medium};
+      color: ${theme.colors.text};
     }
   `}
-`
+`;
 
-export default GlobalStyles
+export default GlobalStyles;
