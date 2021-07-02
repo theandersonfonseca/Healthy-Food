@@ -44,7 +44,7 @@ export const TextWrapper = styled.div`
   `}
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h2`
   ${({ theme }) => css`
     margin-bottom: ${theme.spacings.medium};
     font-size: ${theme.font.sizes.xxxlarge};
