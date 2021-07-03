@@ -1,8 +1,6 @@
 <div align="center" style="display: flex">
-  <h1 style="color: #BADC58; font-size: 32px">Healthy Food</h1>
+  <h1>Healthy Food</h1>
 </div>
-
-#
 
 ## 📷 Demonstração
 
