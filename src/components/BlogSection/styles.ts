@@ -2,13 +2,8 @@ import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
-    min-height: 100vh;
     background: ${theme.colors.lightGray};
     overflow: hidden;
-
-    @media (max-width: 900px) {
-      height: auto;
-    }
   `}
 `;
 

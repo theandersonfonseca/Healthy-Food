@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
     @media (max-width: 600px) {
       max-width: 100%;
       flex-direction: column;
+      height: fit-content;
     }
   `}
 `;

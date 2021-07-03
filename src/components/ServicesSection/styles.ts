@@ -2,11 +2,9 @@ import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
-    height: 100vh;
     display: flex;
 
     @media (max-width: 1050px) {
-      height: auto;
       padding: ${theme.spacings.xxlarge} ${theme.spacings.xsmall};
     }
   `}

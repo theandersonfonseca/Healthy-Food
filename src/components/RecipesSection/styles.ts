@@ -2,12 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
-    height: 100vh;
     background: ${theme.colors.lightGray};
-
-    @media (max-width: 900px) {
-      height: auto;
-    }
   `}
 `;
 
