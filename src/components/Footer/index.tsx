@@ -8,8 +8,8 @@ export default function Footer() {
         <S.Copyright>© Copyrights 2019 Stack. All Rights Reserved.</S.Copyright>
 
         <S.Links>
-          <a href='#'>Privacy Policy</a>
-          <a href='#'>Terms and Conditions</a>
+          <a href='https://www.google.com/'>Privacy Policy</a>
+          <a href='https://www.google.com/'>Terms and Conditions</a>
         </S.Links>
       </S.Wrapper>
     </Container>
